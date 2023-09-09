@@ -16,16 +16,17 @@ const { title } = Astro.props;
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+
   <title>Astro Landing - {title}</title>
 </head>
-<body class="font-[Rubik] bg-gradient-to-t from-[#272326] to-[#11161e] h-screen">
+<body class="font-[Rubik] bg-gradient-to-t from-[#1834d3] to-[#0c0000] h-screen">
 
-  <main class=" mx-auto">
+  <main class=" mx-auto ">
 
     <slot/>
+
   </main>
 
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+<script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
 </html>
