@@ -1,12 +1,14 @@
 ---
-const title = "Mi proyecto en Astro!!!!"
+
+import Layout from '../layouts/Layout.astro'
+
+// Compnonents
+
+import Nav from '../components/Nav.astro'
+import Hero from '../components/Hero.astro'
 ---
 
-<h1 class="bg-slate-500">{title}</h1>
-
-
-<style>
-	body {
-		background: #202020;
-	}
-</style>
+<Layout title='Movie'>
+		<Nav/>
+		<Hero/>
+</Layout>

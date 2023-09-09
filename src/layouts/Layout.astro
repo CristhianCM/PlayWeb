@@ -1,0 +1,31 @@
+---
+
+interface Props {
+	title: string;
+}
+
+import '../styles/Layaout.css';
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+  <title>Astro Landing - {title}</title>
+</head>
+<body class="font-[Rubik] bg-gradient-to-t from-[#272326] to-[#11161e] h-screen">
+
+  <main class=" mx-auto">
+
+    <slot/>
+  </main>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+</html>
