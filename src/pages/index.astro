@@ -6,9 +6,13 @@ import Layout from '../layouts/Layout.astro'
 
 import Nav from '../components/Nav.astro'
 import Hero from '../components/Hero.astro'
+import App from '../components/Carousel'
+import Title from '../components/Title.astro'
 ---
 
 <Layout title='Movie'>
 		<Nav/>
 		<Hero/>
+		<Title />
+		<App client:visible />
 </Layout>
