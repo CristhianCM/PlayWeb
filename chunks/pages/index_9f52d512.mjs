@@ -9,7 +9,7 @@ var __freeze = Object.freeze;
 var __defProp = Object.defineProperty;
 var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(raw || cooked.slice()) }));
 var _a;
-const $$Astro$4 = createAstro();
+const $$Astro$4 = createAstro("https://CristhianCM.github.io");
 const $$Layout = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$4, $$props, $$slots);
   Astro2.self = $$Layout;
@@ -17,14 +17,14 @@ const $$Layout = createComponent(async ($$result, $$props, $$slots) => {
   return renderTemplate(_a || (_a = __template(['<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- FONTS --><link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet"><title>Astro Landing - ', "</title>", '</head><body class="font-[Rubik] bg-gradient-to-t from-[#0c0000] to-[#0c0000] h-screen"><main class=" mx-auto ">', '</main><script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"><\/script></body></html>'])), title, renderHead(), renderSlot($$result, $$slots["default"]));
 }, "C:/Users/crist/Documents/movie/movie/src/layouts/Layout.astro", void 0);
 
-const $$Astro$3 = createAstro();
+const $$Astro$3 = createAstro("https://CristhianCM.github.io");
 const $$Nav = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
   Astro2.self = $$Nav;
   return renderTemplate`${maybeRenderHead()}<nav class="w-full z-50 bg-transparent fixed border-gray-300 bg-opacity-20 backdrop-blur-lg "><div class=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"><a href="" class="flex items-center"><img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Logo"><span class="self-center text-2xl font-semibold whitespace-nowrap text-white">PlayWeb</span></a><div class="flex md:order-2"><button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" class="md:hidden text-gray-400 hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-700 rounded-lg text-sm p-2.5 mr-1"><svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"></path></svg><span class="sr-only">Search</span></button><div class="relative hidden md:block"><div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"><svg class="w-4 h-4 text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"></path></svg><span class="sr-only">Search icon</span></div><input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-sm  border  rounded-lg   bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500" placeholder="Search..."></div><button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg md:hidden  focus:outline-none focus:ring-2  text-gray-400 hover:bg-gray-700 focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false"><span class="sr-only">Open main menu</span><svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"></path></svg></button></div><div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search"><div class="relative mt-3 md:hidden"><div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"><svg class="w-4 h-4 text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"></path></svg></div><input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-sm  border  rounded-lg   bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500" placeholder="Search..."></div><ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border  rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0   border-gray-700"><li class="my-1"><a href="#" class="block py-2 pl-3 pr-4  rounded   md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700" aria-current="page">Home</a></li><li class="my-1"><a href="#" class="block py-2 pl-3 pr-4  rounded   md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700">About</a></li><li class="my-1"><a href="#" class="block py-2 pl-3 pr-4  rounded   md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700">Services</a></li></ul></div></div></nav>`;
 }, "C:/Users/crist/Documents/movie/movie/src/components/Nav.astro", void 0);
 
-const $$Astro$2 = createAstro();
+const $$Astro$2 = createAstro("https://CristhianCM.github.io");
 const $$Hero = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$Hero;
@@ -154,14 +154,14 @@ function App() {
   ] });
 }
 
-const $$Astro$1 = createAstro();
+const $$Astro$1 = createAstro("https://CristhianCM.github.io");
 const $$Title = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
   Astro2.self = $$Title;
   return renderTemplate`${maybeRenderHead()}<section><div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16"><h1 class="mb-4 text-2xl font-normal tracking-tight leading-none md:text-3xl lg:text-4xl text-white">Estrenos</h1></div></section>`;
 }, "C:/Users/crist/Documents/movie/movie/src/components/Title.astro", void 0);
 
-const $$Astro = createAstro();
+const $$Astro = createAstro("https://CristhianCM.github.io");
 const $$Index = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$Index;
@@ -169,6 +169,6 @@ const $$Index = createComponent(async ($$result, $$props, $$slots) => {
 }, "C:/Users/crist/Documents/movie/movie/src/pages/index.astro", void 0);
 
 const $$file = "C:/Users/crist/Documents/movie/movie/src/pages/index.astro";
-const $$url = "";
+const $$url = "/PlayWeb";
 
 export { $$Index as default, $$file as file, $$url as url };
